@@ -1,0 +1,75 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+  
+
+    background-color: #000; /* Set the background color to black */
+  color: #fff; /* Set text color to white */
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform property for button hover effect */
+    flex-grow: 1;
+    margin-right: 5px;
+  }
+  
+  .button.send-button {
+    background-color: #5cb85c;
+    margin-left: 5px;
+  }
+  
+  /* Hover effect styles */
+  .button:hover {
+    background-color: #0056b3; /* New background color on hover */
+    transform: scale(1.05); /* Scale up the button slightly on hover */
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input::placeholder {
+    color: #999;
+  }
+  
+  #status_p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
